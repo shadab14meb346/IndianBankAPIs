@@ -92,7 +92,7 @@ exports.getListOfDistrictsBankAvailableIn = (request, response) => {
 				},
 				{
 					$project: {
-						state: '$_id',
+						district: '$_id',
 						_id: 0
 					}
 				},
