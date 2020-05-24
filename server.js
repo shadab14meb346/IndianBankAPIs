@@ -17,4 +17,6 @@ connectDB();
 app.use(cors());
 app.set('port', port);
 const server = http.createServer(app);
-server.listen(port, () => console.log(`API running on localhost:${port}`));
+server.listen(process.env.PORT || 3001, () =>
+	console.log(`API running on localhost:${port}`)
+);
