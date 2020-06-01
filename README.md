@@ -1,4 +1,3 @@
-# IndianBankAPIs
 ## How to use these APIs.
 ### 1.You can use the endpoints of APIs I have already deployed on heroku.
 You can use the APIs to get Indian banks details. The documentation of API is hosted here.
